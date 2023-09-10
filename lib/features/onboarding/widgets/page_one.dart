@@ -34,11 +34,11 @@ class PageOne extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 30.w),
                 child: Text(
-                    "Welcome!! Do you want to create a task fast and with ease?",
-                    textAlign: TextAlign.center,
-                    style:
-                        appstyle(16, AppConst.kGreyLight, FontWeight.normal)),
-              )
+                  "Welcome!! Do you want to create a task fast and with ease?",
+                  textAlign: TextAlign.center,
+                  style: appstyle(16, AppConst.kGreyLight, FontWeight.normal),
+                ),
+              ),
             ],
           ),
         ],
